@@ -25,5 +25,3 @@ def part(part, example:, &block)
 
   puts "part #{part}: #{block.call(File.read(File.join(day_dir, "input.txt")))}"
 end
-
-

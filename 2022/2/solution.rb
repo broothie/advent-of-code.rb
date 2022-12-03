@@ -1,4 +1,4 @@
-require_relative '../../runner'
+require_relative "../../runner"
 
 SCORES = { rock: 1, paper: 2, scissors: 3 }
 
