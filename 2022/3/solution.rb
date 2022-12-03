@@ -13,7 +13,7 @@ part_1 example: 157 do |input|
     .sum
 end
 
-part_1 example: 70 do |input|
+part_2 example: 70 do |input|
   input
     .split("\n")
     .each_slice(3)
