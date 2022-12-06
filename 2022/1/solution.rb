@@ -1,4 +1,4 @@
-require_relative "../../runner"
+require_relative "../../framework"
 
 part_1 example: 24000 do |input|
   input

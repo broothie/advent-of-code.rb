@@ -1,12 +1,11 @@
-
-# @param example [Integer]
+# @param example [Object]
 # @param block [Proc]
 # @return [void]
 def part_1(example:, &block)
   part(1, example:, &block)
 end
 
-# @param example [Integer]
+# @param example [Object]
 # @param block [Proc]
 # @return [void]
 def part_2(example:, &block)
@@ -14,7 +13,7 @@ def part_2(example:, &block)
 end
 
 # @param part [Integer]
-# @param example [Integer]
+# @param example [Object]
 # @param block [Proc]
 # @return [void]
 def part(part, example:, &block)

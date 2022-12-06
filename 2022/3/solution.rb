@@ -1,5 +1,5 @@
 require 'pry'
-require_relative "../../runner"
+require_relative "../../framework"
 
 LOWERCASE = ('a'..'z').to_a
 UPPERCASE = ('A'..'Z').to_a
